@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Document d'inscription</title>
+	<link rel="stylesheet" type="text/css" href="InscriptionCouleur.css">
+
+</head>
+
+
+<body>
+	<h1>Remplir le document pour s'inscrire</h1>
+	<br>
+	<br>
+	<fieldset style="width: 20%">
+	    <legend><h2>Données personnelles</h2></legend>
+		<form>
+			<p>
+			   <label for="Nom">Nom</label>
+			   <input type="text" id="Nom" name="Nom" maxlength="20">
+		    </p>
+		    <p>
+		       <label for="Prénom">Prénom</label>
+			   <input type="text" id="Prénom" name="Prénom" placeholder="ex:Bob" maxlength="20">
+			</p>
+			<p>
+				<label for="Date de naissance">Date de naissance</label>
+				<input type="date" id="Date de naissance" name="date de naissance">
+			</p>
+			<p>
+				<label for="email">votre email</label>
+				<input type="email" id="email" name="email">
+			</p>
+			<p class="input">Sexe
+
+				<select name="Sexe">
+					<option value="Masculin">Masculin</option>
+					<option value="Féminin">Féminin</option>
+					<option value="Autre">Autre</option>
+				</select>
+
+			</p>
+			<p class="input">Veuillez cocher
+	           <input type="checkbox" name="chekbox1" required>
+			</p>
+			<p>
+				<input type="submit" name="submit">
+			</p>	
+		</form>
+    </fieldset>
+	
+    <fieldset style="width: 20%">
+    	<legend><h2>Données liées à votre personnage</h2></legend>
+		<form>
+			<p class="input">Identifiant
+				<input type="text" name="Identifiant" min="5" max="15" required>
+			</p>
+			<p class="input">Mot de passe
+				<input type="password" name="MotDePasse" value="secret" min="5" max="15" required>
+			</p>
+			<p>
+			   <label for="Pseudo">Pseudo</label>
+			   <input type="text" name="Pseudo">
+		    </p>
+		    <p class="input">Veuillez choisir votre rôle
+		       <select name="Rôle">
+		         <option value="Assassin">Assassin</option>
+		         <option value="Tank">Tank</option>
+		         <option value="Druide">Druide</option>
+		         <option value="Sorcier">Sorcier</option>
+		         <option value="Démon">Démon</option>
+		       </select>
+		    </p>
+		    <p class="input">Couleur du personnage
+		       <input type="color" name="color">
+		    	
+		    </p>
+		    <p class="input">Veuillez cocher
+		       <input type="checkbox" name="chekbox2" required>
+		    </p>
+
+		    <input type="submit" name="submit2">
+	  
+		</form>
+    </fieldset>
+    <p>
+    <a href="GallionGames.html">Retour</a>
+    </p>
+
+
+</body>
+</html>
