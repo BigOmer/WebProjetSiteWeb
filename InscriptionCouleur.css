@@ -1,5 +1,31 @@
 body {
+    
+    text-align: center;
+    text-decoration: underline;
+    color:solid black;
+	background-image:url(https://www.berhin.be/uploads/slider/334/Alain_Michel_Zone_Attente%20-%20958x478.jpg);background-size: 100% 100%;
+    
+}
+.fieldset{
 
-	background-image:url(https://www.berhin.be/uploads/slider/334/Alain_Michel_Zone_Attente%20-%20958x478.jpg);
+	width: 20%; /* la taille du carré */
+	margin: auto; /* aide pour le centrage du fieldset */
 
+}
+
+.Avertissement{
+
+	text-transform: uppercase;
+
+
+}
+h3,p1{
+
+	color: red;
+}
+
+a:link,
+a:visited{
+
+	color: yellow;
 }
